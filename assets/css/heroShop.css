@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heroContainer{
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+
+.heroShop{
+  position: relative;
+  display: inline-block;
+}
+
+
+.shopImg{
+  width: 1440px;
+  height: 1024px;
+
+}
+
+.shopH1{
+position: absolute;
+  top: 33%;
+  left: 50%;
+  width: 800px;
+  font-family: 'Montserrat' ,sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 81px;
+  letter-spacing: -0.9px;
+  text-align: center;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+
+.shopH4{
+  position: absolute;
+  top: 48%;
+  left: 51%;
+  font-family: 'Montserrat' ,sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.35px;
+  text-align: center;
+  color: white;
+  width: 600px;
+  transform: translate(-50%, -50%);
+}
+
+.shopBtn{
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #094BAC;
+  width: 230px;
+  padding: 15px;
+  border: none;
+  border-radius: 32px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+
+}
