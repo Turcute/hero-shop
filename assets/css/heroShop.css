@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(/assets/img/flower.jpg);
+  background-image: url(../img/flower.jpg);
   background-repeat: no-repeat;
 }
 
@@ -36,11 +36,9 @@ body{
   line-height: 37px;
   letter-spacing: -0.35px;
   color: white;
-
 }
 
 .btn{
-  
   color: white;
   border-radius: 32px;
   text-decoration: none;
